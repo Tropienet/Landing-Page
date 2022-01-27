@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;  
+}
+
+.container{   
+    background-color: #1F2937;
+    width: 100%;
+    height: 2000px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.t-container{
+    display: flex;
+    width: 100%;
+    height: 450px;
+  
+}
+
+.text{
+    background-color: #1F2937;
+    width: 50%;
+    height: 450px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 450px;
+}
+
+.logo{
+    font-size: 14px;
+
+    align-self: center;
+    color: #F9FAF8;
+    margin-left: 20px
+}
+
+.header-links{
+    align-self: center;
+    margin-left: 67%;
+}
+
+.link{
+    margin: 0 8px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sign-up{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 15%;
+    border: 0px;
+    height: 32px;
+    width: 80px;
+}
+
+.website-info{
+    margin: 50px 180px
+}
+
+.image-container{
+    align-self: center;
+    
+    width: 80%;
+    height: 370px;
+}
+
+.main-image{
+    width: 100%;
+    height: 370px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.info-heading{
+    align-self: center;
+    margin-top: 32px;
+}
+
+.info-detailed{
+    align-self: center;
+    width: 80%;
+    height: 350px;
+    
+}
+
+.info-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-image{
+    border: 2px solid #3882F6;
+    border-radius: 15%;
+    width: 15%;
+    height: 190px;
+}
+
+.picture-text{
+    width:15%;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.comment-text{
+    align-self: center;
+    width: 70%;
+    height: 200px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author{
+    align-self: center;
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #F9FAF8;
+}
+
+.cta-container{
+    display: flex;
+    background-color: #3882F6;
+    width: 80%;
+    align-self: center;
+    height: 250px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.cta-button{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    
+}
+
+.cta-sign-up{
+    align-self: center;
+    border: solid 1px white;
+    background-color: darkblue;
+}
+
+.cta-para{
+    align-self: center;
+}
